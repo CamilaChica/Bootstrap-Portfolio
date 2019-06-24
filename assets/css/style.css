@@ -8,7 +8,7 @@ body {
     box-sizing: border-box;
 }
 .header2 {
-    height: 55px;
+    height: 35px;
     background-color: #ffffff;
     padding-left: 5%;
     padding-right: 5%;
@@ -22,7 +22,9 @@ h1 {
     background-color: #4aaaa5;
     font-size: 22px;
     padding: 10px;
+    padding-bottom: 10px;
     width: 20px;
+    margin: 0%;
     display: inline;
 }
 h2 {
@@ -51,6 +53,8 @@ h2 {
 }
 .container {
     background-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 p {
@@ -76,7 +80,7 @@ footer {
     border-top-color: #4aaaa5;
     border-top-width: 5px;
     padding-top: 20px;
-    position: sticky;
+    position bottom: sticky;
     bottom: 0;
 }
 .row:after {
