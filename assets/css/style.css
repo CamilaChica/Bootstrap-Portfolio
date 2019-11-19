@@ -1,5 +1,5 @@
 body {
-    width: 100%;
+    width: 960;
     margin: 0px;
     padding: 0px;
     background-image: url("../images/full-bloom.png")
@@ -8,10 +8,13 @@ body {
     box-sizing: border-box;
 }
 .header2 {
-    height: 35px;
+    height: 55px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 20px;
+    padding-bottom: 0px;
     background-color: #ffffff;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 a{
     text-decoration: none;
@@ -22,10 +25,10 @@ h1 {
     background-color: #4aaaa5;
     font-size: 22px;
     padding: 10px;
-    padding-bottom: 10px;
     width: 20px;
-    margin: 0%;
     display: inline;
+    margin: 0px;
+    margin-left: 6em;
 }
 h2 {
     color: #4aaaa5;
@@ -36,7 +39,7 @@ h2 {
 }
 .links {
     display: inline-block;
-    float: right;
+  float: right;
 }
 .portfolio1 {
     padding-left: 20px;
@@ -47,15 +50,22 @@ h2 {
     border-left: solid silver 1px;
 }
 .photoCch {
-    
-      width: 100%;
-
+      height: 200px;
+      width: 200px;
+      position: relative;
+      right: 0;
+      z-index: 1;
+      display: inline-block;
+      float: left;
 }
 .container {
     background-color: #ffffff;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+    margin-left: 12em;
+    margin-right: 12em;
+    margin-bottom: 5em;
+    opacity: 100%;
+    padding: 20px;
+    z-index: 2;
 }
 p {
       color: gray;
@@ -65,11 +75,11 @@ p {
 }
 .spaceParagraph {
     position: relative;
-    
+    padding-left: 220px;
 }
 .spaceParagraph {
     position: relative;
-      
+    padding-left: 220px;   
 }
 footer {
     text-align: center;
@@ -80,7 +90,7 @@ footer {
     border-top-color: #4aaaa5;
     border-top-width: 5px;
     padding-top: 20px;
-    position bottom: sticky;
+    position: sticky;
     bottom: 0;
 }
 .row:after {
